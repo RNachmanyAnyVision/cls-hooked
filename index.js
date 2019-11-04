@@ -3,7 +3,7 @@
 const semver = require('semver');
 
 /**
- * In order to increase node version support, this loads the version of context
+ * In order to increase node version support, this loads the version of contex
  * that is appropriate for the version of on nodejs that is running.
  * Node < v8 - uses AsyncWrap and async-hooks-jl
  * Node >= v8 - uses native async-hooks
